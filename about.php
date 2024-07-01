@@ -41,7 +41,7 @@
       </nav>
 
    <h1>About Us</h1> 
-   <p>Lorem ipsum doloor sit, amet consectetur adipisicing elit. Laboriosam eligendi porro quos dignissimos rerum tempore, autem ratione nulla repudiandae quo eos, voluptatibus, quasi saepe possimus rem maxime laborum sapiente illo.</p>
+   <p>Lorem ipsum doloooor sit, amet consectetur adipisicing elit. Laboriosam eligendi porro quos dignissimos rerum tempore, autem ratione nulla repudiandae quo eos, voluptatibus, quasi saepe possimus rem maxime laborum sapiente illo.</p>
 
    <img src="./images/pexels-photo.jpg" width="40%">
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
