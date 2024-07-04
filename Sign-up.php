@@ -45,7 +45,7 @@
                 <input type="date" id="updated" name="updated" required>
                 <span id="updatedError" class="error"></span>
             </div>
-            <button type="submit" class="btn btn-primary">Sign up</button>
+            <button type="submit" name = "signup" class="btn btn-primary">Sign up</button>
             <a href="sign-in.html" class="btn btn-secondary">Already have an account? Sign in</a>
         </form>
     </div>
