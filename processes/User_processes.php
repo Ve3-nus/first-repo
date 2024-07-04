@@ -20,7 +20,7 @@ if (isset($_POST["signup"])) {
   //executing the sql query
   if ($dbConn->query($user_insert) === TRUE) {
     echo "New record created successfully";
-    header("Location:..sign-in.php");
+    header("Location: ./sign-in.php");
 } else {
     die("Failed to insert the new record: " .  $dbConn->error);
 }

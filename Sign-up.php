@@ -46,7 +46,7 @@
                 <span id="updatedError" class="error"></span>
             </div>
             <input type="submit" name = "signup" class="btn btn-primary">Sign up</>
-            <a href="sign-in.html" class="btn btn-secondary">Already have an account? Sign in</a>
+            <a href="sign-in.php" class="btn btn-secondary">Already have an account? Sign in</a>
         </>
     </div>
     <script src="scripts.js"></script>
