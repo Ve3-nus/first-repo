@@ -8,12 +8,22 @@
 </head>
 <body>
     <div class="container">
-        <h1>Enter Goods or Services Details</h1>
-        <form id="goodsForm" action="/submit" method="POST">
+        <h1>Enter User Details</h1>
+        <form id="userForm" action="/submit" method="POST">
             <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" required>
-                <span id="nameError" class="error"></span>
+                <label for="userId">User ID</label>
+                <input type="text" id="userId" name="userId" required>
+                <span id="userIdError" class="error"></span>
+            </div>
+            <div class="form-group">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" required>
+                <span id="fullnameError" class="error"></span>
+            </div>
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+                <span id="usernameError" class="error"></span>
             </div>
             <div class="form-group">
                 <label for="email">Email address</label>
@@ -21,11 +31,21 @@
                 <span id="emailError" class="error"></span>
             </div>
             <div class="form-group">
-                <label for="date">Date</label>
-                <input type="date" id="date" name="date" required>
-                <span id="dateError" class="error"></span>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <span id="passwordError" class="error"></span>
             </div>
-            <a href="index.html" class="btn btn-secondary">Sign up</a>
+            <div class="form-group">
+                <label for="created">Created Date</label>
+                <input type="date" id="created" name="created" required>
+                <span id="createdError" class="error"></span>
+            </div>
+            <div class="form-group">
+                <label for="updated">Updated Date</label>
+                <input type="date" id="updated" name="updated" required>
+                <span id="updatedError" class="error"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Sign up</button>
             <a href="sign-in.html" class="btn btn-secondary">Already have an account? Sign in</a>
         </form>
     </div>
