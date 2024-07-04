@@ -45,9 +45,9 @@
                 <input type="date" id="updated" name="updated" required>
                 <span id="updatedError" class="error"></span>
             </div>
-            <form action="processes/User_processes.php" name = "signup" class="btn btn-primary">Sign up</>
+            <input type="submit" name = "signup" class="btn btn-primary">Sign up</>
             <a href="sign-in.html" class="btn btn-secondary">Already have an account? Sign in</a>
-        </form>
+        </>
     </div>
     <script src="scripts.js"></script>
 </body>
