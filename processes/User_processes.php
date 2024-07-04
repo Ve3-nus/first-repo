@@ -25,4 +25,12 @@ if (isset($_POST["signup"])) {
     die("Failed to insert the new record: " .  $dbConn->error);
 }
 }
+//signin
+if (isset($_POST["signup"])) {
+$fullname = mysqli_real_escape_string($dbConn, $_POST["fullname"]);
+$username = mysqli_real_escape_string($dbConn, $_POST["username"]);
+$email = mysqli_real_escape_string($dbConn, $_POST["email"]);
+$password = mysqli_real_escape_string($dbConn, $_POST["password"]);
+
+}
 ?>
