@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <h1>Enter User Details</h1>
-        <form id="userForm" action="/submit" method="POST">
+        <form id="userForm" action="/processes/User_processes.php" method="POST">
             <div class="form-group">
                 <label for="userId">User ID</label>
                 <input type="text" id="userId" name="userId" required>
