@@ -26,11 +26,14 @@ if (isset($_POST["signup"])) {
 }
 }
 //signin
-if (isset($_POST["signup"])) {
-$fullname = mysqli_real_escape_string($dbConn, $_POST["fullname"]);
-$username = mysqli_real_escape_string($dbConn, $_POST["username"]);
-$email = mysqli_real_escape_string($dbConn, $_POST["email"]);
-$password = mysqli_real_escape_string($dbConn, $_POST["password"]);
+if (isset($_POST["signin"])) {
+$entered_username = mysqli_real_escape_string($dbConn, $_POST["username"]);
+$entered_password = mysqli_real_escape_string($dbConn, $_POST["password"]);
 
+//verify is the entered username matches any record
+$spot_username = "SELECT * FROM usres WHERE username = '$entered_username' LIMIT 1";
+
+//Executing the select query
+$uName_result = $dbConn->query($spot_username);
 }
 ?>

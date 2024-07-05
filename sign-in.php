@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <h1>Enter User Details</h1>
-        <form id="signupForm" action="/submit" method="POST">
+        <form id="signupForm" action="/first-repo/processes/User_processes.php" method="POST" autocomplete="off">
             <div class="form-group">
                 <label for="fullname">Full Name</label>
                 <input type="text" id="fullname" name="fullname" required>
@@ -30,7 +30,7 @@
                 <input type="password" id="password" name="password" required>
                 <span id="passwordError" class="error"></span>
             </div>
-            <button type="submit" class="btn btn-primary">Sign up</button>
+            <input type="submit" name="signin" class="btn btn-primary">Sign up</>
             <a href="index.html" class="btn btn-secondary">Sign in</a>
         </form>
     </div>
