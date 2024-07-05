@@ -1,5 +1,6 @@
 <?php
-
+//start the session service 
+session_start();
 //Import dtbse
 require_once "../config/dbConnect.php";
 
@@ -35,5 +36,28 @@ $spot_username = "SELECT * FROM usres WHERE username = '$entered_username' LIMIT
 
 //Executing the select query
 $uName_result = $dbConn->query($spot_username);
+//count at least one matching row
+if($uName_res->num_rows > 0) {
+    //create a session
+    $_SESSION["control"] = $uName_res->fetch_assoc();
+
+    //Use the  session t fetch the stored password
+    $stored_password = $_SESSION["control"]["password"];
+    
+    //verify if the entered password matches the stored password
+    if(password_verify($entered_password, $stored_password)){
+        //if the 2 passwords match, redirect to certain page
+        header("Location:../index.php");
+        exit();
+    }else{
+        //otherwise destroy the control session and redirect to signin
+        unset($_SESSION["control"]);
+        header("Location: ../signin.php");
+    }
+
+}else{
+    //otherwise redirect to signin
+    header("Location: ../signin.php");
+}
 }
 ?>
