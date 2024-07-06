@@ -52,7 +52,7 @@ if($uName_res->num_rows > 0) {
     }else{
         //otherwise destroy the control session and redirect to signin
         unset($_SESSION["control"]);
-        header("Location: ../signin.php");
+        header("Location: ../Sign-up.php");
     }
 
 }else{
