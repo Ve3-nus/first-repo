@@ -1,6 +1,6 @@
 <?php
 // projectInsert.php
-require_once "dbConnect.php";
+require_once "../config/dbConnect.php";
 
 if (isset($_POST["submit"])) {
     $projectname = mysqli_real_escape_string($dbConn, $_POST["projectname"]);
