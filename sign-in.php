@@ -31,7 +31,7 @@
                 <span id="passwordError" class="error"></span>
             </div>
             <input type="submit" name="signin" class="btn btn-primary">Sign up</>
-            <a href="index.html" class="btn btn-secondary">Sign in</a>
+            
         </form>
     </div>
     <script src="scripts.js"></script>
