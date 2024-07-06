@@ -9,12 +9,7 @@
 <body>
     <div class="container">
         <h1>Enter User Details</h1>
-        <form id="userForm" action="/first-repo/processes/User_processes.php" method="POST" autocomplete="off">
-            <div class="form-group">
-                <label for="userId">User ID</label>
-                <input type="text" id="userId" name="userId" required>
-                <span id="userIdError" class="error"></span>
-            </div>
+        <form id="signupForm" action="/first-repo/processes/User_processes.php" method="POST" autocomplete="off">
             <div class="form-group">
                 <label for="fullname">Full Name</label>
                 <input type="text" id="fullname" name="fullname" required>
@@ -45,9 +40,9 @@
                 <input type="date" id="updated" name="updated" required>
                 <span id="updatedError" class="error"></span>
             </div>
-            <input type="submit" name = "signup" class="btn btn-primary">Sign up</>
+            <input type="submit" name="signup" class="btn btn-primary" value="Sign up">
             <a href="sign-in.php" class="btn btn-secondary">Already have an account? Sign in</a>
-        </>
+        </form>
     </div>
     <script src="scripts.js"></script>
 </body>
