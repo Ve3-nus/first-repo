@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <h1>Enter Project Details</h1>
-        <form id="projectForm" action="project_processes.php" method="POST">
+        <form id="projectForm" action="./processes/project_processes.php" method="POST">
             <div class="form-group">
                 <label for="projectname">Project Name</label>
                 <input type="text" id="projectname" name="projectname" required>
