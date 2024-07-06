@@ -14,7 +14,7 @@ if (isset($_POST["submit"])) {
 
     if ($dbConn->query($insertProject) === TRUE) {
         echo "New project record created successfully";
-        header("Location: ../sign-in.php"); // Redirect to a different page
+        header("Location: ../services.php"); // Redirect to a different page
     } else {
         die("Failed to insert the new project record: " . $dbConn->error);
     }
