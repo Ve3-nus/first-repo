@@ -30,18 +30,6 @@ require_once "./config/dbConnect.php"
             <input type="submit" name="signin" class="btn btn-primary" value="Sign in">
         </form>
     </div>
-    <div class="">
-                <?php
-                if(isset($_SESSION['control'])) {
-                } 
-                ?>
-                <div class="usertitle">
-                    Hello <?php print $_SESSION['control']["fullname"] ?>
-                </div>
-                <a href="./processes/User_processes.php?signout"> Sign out</a>
-                <?php
-                ?>
-            </div>
     <script src="scripts.js"></script>
 </body>
 </html>
