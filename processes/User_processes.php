@@ -58,6 +58,17 @@ if($uName_res->num_rows > 0) {
 }else{
     //otherwise redirect to signin
     header("Location: ../signin.php");
+    exit();
 }
+}
+
+//signout process
+
+if(isset($_POST["signout"])){
+    //unset the session control
+    unset($_SESSION["control"]);
+    //redirect to signin
+    header("Location:../signin.php");
+    exit();
 }
 ?>
