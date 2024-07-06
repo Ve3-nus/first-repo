@@ -57,7 +57,7 @@ if($uName_res->num_rows > 0) {
 
 }else{
     //otherwise redirect to signin
-    header("Location: ../signin.php");
+    header("Location: ../sign-in.php");
     exit();
 }
 }
