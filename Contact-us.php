@@ -14,22 +14,22 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="/index.php">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="./services.php">Sign-up</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./patners.html">Partners</a>
+                <a class="nav-link" href="./patners.php">Partners</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./Contact-us.html">Contact</a>
+                <a class="nav-link" href="./Contact-us.php">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./help.html">Help</a>
+                <a class="nav-link" href="./help.php">Help</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./about.html">About</a>
+                <a class="nav-link" href="./about.php">About</a>
               </li>
              
             </ul>
