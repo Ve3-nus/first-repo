@@ -11,5 +11,5 @@ if($dbConn->connect_error){
 }else{
     echo "The connection was successful!!!";
 }
-http://localhost/first-repo/config/dbConnect.php
+//http://localhost/first-repo/config/dbConnect.php
 ?>
